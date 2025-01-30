@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="about-container">
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcset="./assets/motunrayo_large.jpeg"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="./assets/motunrayo_medium.jpeg"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="./assets/motunrayo_sm.jpeg"
+        />
+        <img
+          src="./assets/motunrayo_img.jpeg"
+          alt="Portrait of Motunrayo"
+          width="200"
+          height="200"
+          class="profile-image"
+        />
+      </picture>
+      <main class="about-wrapper">
+        <div class="about-me">
+          <h1>Adeneye Motunrayo</h1>
+
+          <blockquote>
+            <img src="assets/quote.png" alt="quote-icon" />
+            <quote
+              >You can be whatever you want to be when you set your mind at
+              it.</quote
+            >
+            <img src="assets/double-quotes.png" alt="quote-icon" />
+          </blockquote>
+        </div>
+        <div>
+          <h2>My Pictures</h2>
+          <div class="slider">
+            <div class="slides">
+          
+              <div class="slide">
+                <img src="./assets/motunrayo_3.jpeg" alt="Motunrayo" />
+              </div>
+              <div class="slide">
+                <img src="./assets/motunrayo_2.jpeg" alt="Motunrayo" />
+              </div>
+              <div class="slide">
+                <img src="./assets/motunrayo_1.jpeg" alt="Motunrayo" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h2>My Audio</h2>
+          <audio controls>
+        <source src="./assets/motunrayo_audio.mp3" type="audio/mp3" />
+        <p>Your browser does not support HTML5 audio.</p>
+      </audio> 
+        </div>
+
+        <div>
+          <h2>My Video</h2>
+          <video controls class="intro-video">
+        <source src="./assets/motunrayo_video.mp4" type="video/mp4" />
+        <p>Your browser does not support HTML5 video.</p>
+      </video>
+        </div>
+ <footer class="">
+      <a href="./table.html" class="form-link">AltSchool Table</a>
+    
+    </footer>
+
+      </main>
+    </div>
+  </body>
+</html>

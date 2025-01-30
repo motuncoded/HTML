@@ -1,0 +1,139 @@
+<!-- AltSchool Application form -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool Application Form</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <div class="sign-up-link">
+          <p>
+            Already an AltScholar ?
+            <a href="https://portal.altschoolafrica.com/auth/signin"
+              >Sign in !
+            </a>
+          </p>
+        </div>
+        <h1 class="signup-heading">Signup</h1>
+        <p class="signup-paragraph">
+          Take the next steps to apply at AltSchool Africa
+        </p>
+        <form>
+          <div class="form-container">
+            <div class="form-group" role="group">
+              <label for="firstName">First Name</label>
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First Name"
+              />
+            </div>
+            <div class="form-group" role="group">
+              <label for="lastName">Last Name</label>
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="form-group" role="group">
+              <label for="email">Email </label>
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="form-group" role="group">
+              <label for="gender">Gender</label>
+              <select class="" name="gender" id="gender">
+                <option value>Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+            </div>
+
+            <div class="form-group" role="group">
+              <label for="dob">Date of Birth</label>
+              <input
+                type="date"
+                max="2013-1-1"
+                name="dob"
+                id="dob"
+                placeholder="Date of Birth"
+              />
+            </div>
+            <div class="form-group" role="group">
+              <label for="phoneNumber">Phone Number</label>
+              <input
+                type="tel"
+                name="phoneNumber"
+                id="phoneNumber"
+                placeholder="Phone number"
+              />
+            </div>
+            <div class="form-group" role="group">
+              <label for="country">Country of Residence</label>
+              <input
+                type="text"
+                name="country"
+                id="country"
+                placeholder="Country of Residence"
+              />
+            </div>
+            <div class="form-group" role="group">
+              <label for="state">State of Residence</label>
+              <input
+                type="text"
+                name="state"
+                id="state"
+                placeholder="State of Residence"
+              />
+            </div>
+            <div class="form-group" role="group">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="password"
+              />
+            </div>
+            <div class="form-group" role="group">
+              <label for="confirmPassword">Confirm Password</label>
+              <input
+                type="password"
+                name="confirmPassword"
+                id="confirmPassword"
+                placeholder="Confirm Password"
+              />
+            </div>
+          </div>
+          <div class="form-group-about-us" role="group">
+            <label for="hearAboutUs">How did you hear about us</label>
+            <input
+              type="text"
+              name="hearAboutUs"
+              id="hearAboutUs"
+              placeholder="Optional:Tell us how you found us "
+            />
+          </div>
+          <p class="terms">
+            By clicking continue, I agree to
+            <a href="/">Terms of Use</a>
+            and acknowledge that I have read the
+            <a href="/">Privacy Policy</a>.
+          </p>
+          <button type="submit" class="sign-up-btn">Sign up</button>
+          <a href="/HTML/Assignment 2/table.html" class="form-link"
+            >AltSchool Schools and Courses</a
+          >
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
