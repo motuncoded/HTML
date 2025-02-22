@@ -118,3 +118,6 @@ footer a {
 .form-link {
   border: 1px solid var(--accent-color);
 }
+.home{
+  background-color: var(--accent-color);
+}
